@@ -3,4 +3,4 @@ This is my first portfolio website, showcasing my projects, skills, and experien
 theme.
 
 # Screenshot
-<img src="assets\Clove logo2 cropped.jpg">
+<img src="assets/screenshot.png">
