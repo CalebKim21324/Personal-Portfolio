@@ -120,7 +120,7 @@ nav button#menuButton{
 
 .main .left p{
     color: #1c1e53;
-    font-size: 22px;
+    font-size: 18px;
     margin-top: 20px;
 }
 
@@ -135,10 +135,11 @@ nav button#menuButton{
 }
 
 .main .right img{
-    margin-right: 300px;
+    margin-right: 175px;
+    display: block;
+    gap: 20px;
     width: 400px;
-    border-radius: 50%;
-    object-fit: cover;
+    border-radius: 30px;
 }
 
 .skills{
@@ -155,7 +156,7 @@ nav button#menuButton{
 .about .right h3,
 .portfolio .header h3,
 .feedback h3{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 300;
     margin-top: 20px;
 }
@@ -237,6 +238,7 @@ nav button#menuButton{
 .about .right p{
     font-size: 16px;
     margin-top: 30px;
+    margin-right: 30%;
 }
 
 .portfolio{
@@ -428,7 +430,7 @@ footer .bottom .links a{
 
     .main .right img{
         width: 380px;
-        border-radius: 80px;
+        /* border-radius: 80px; */
     }
 
     .skills .skill-items{
@@ -596,8 +598,16 @@ footer .bottom .links a{
         font-size: 32px;
     }
 
+    .main .left {
+        margin-left: auto;
+    }
+
     .main .left p{
         font-size: 16px;
+    }
+
+    .main .right .img{
+        margin-right: 0;
     }
 
     .main .left button{
