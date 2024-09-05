@@ -186,7 +186,7 @@ nav button#menuButton{
 }
 
 .skills .skill-items .item:hover{
-    border-color: #FFD700;
+    border-color: #3aeecd;
 }
 
 .skills .skill-items .item .icon{
@@ -375,6 +375,10 @@ nav button#menuButton{
 
 .feedback .customers .item .user p{
     font-size: 12px;
+}
+
+.gallery {
+    width: 300px;
 }
 
 footer{
