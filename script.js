@@ -2,7 +2,7 @@ function openMenu(){
     const nav = document.querySelector('nav');
     nav.classList.toggle('open');
 }const cardWrapper = document.querySelector('.card-wrapper')
-const widthToScroll = cardWrapper.children[0].offsetWidth
+const widthToScroll = 560
 const arrowPrev = document.querySelector('.arrow.prev')
 const arrowNext = document.querySelector('.arrow.next')
 const cardBounding = cardWrapper.getBoundingClientRect()

@@ -381,16 +381,16 @@ nav button#menuButton{
     width: 300px;
 }
 
-
-/* start: Slider */
 .wrapper {
     position: relative;
-    max-width: 940px;
-    width: 100%;
+    width: 500px;
+    margin-right: 160px;
+
 }
 .arrow {
     position: absolute;
     top: 50%;
+    right: 50%;
     transform: translateY(-50%);
     width: 32px;
     height: 56px;
@@ -399,7 +399,7 @@ nav button#menuButton{
     justify-content: center;
     color: #fff;
     background-color: rgba(0, 0, 0, .5);
-    font-size: 20px;
+    font-size: 50px;
     cursor: pointer;
     border: none;
     outline: none;
@@ -408,16 +408,19 @@ nav button#menuButton{
     background-color: rgba(0, 0, 0, .7);
 }
 .arrow.prev {
-    left: 0;
+    left: -50px;
 }
 .arrow.next {
-    right: 0;
+    right: -40px;
 }
 .card-wrapper {
     display: grid;
     grid-auto-flow: column;
-    grid-auto-columns: 280px;
-    overflow-x: auto;
+    grid-auto-columns: 560px;
+    grid-column-end: auto;
+    overflow-x:hidden;
+    height: 600px;
+    width: 500px;
     padding: 24px;
     gap: 24px;
     cursor: grab;
@@ -436,24 +439,29 @@ nav button#menuButton{
     scroll-behavior: auto;
 }
 .card-item {
+    height: 560px;
+    width: 420px;
     scroll-snap-align: start;
+    margin-left: auto;
     border-radius: 6px;
     overflow: hidden;
     box-shadow: 8px 8px 24px rgba(0, 0, 0, .1);
 }
 .card-item img {
+    height: 100%;
     width: 100%;
-    height: 200px;
+    margin-left: 10px;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: center;
     object-fit:contain;
 }
-
 .card-title:hover {
     color: #006aff;
 }
 .card-description {
     color: #888;
 }
-/* end: Slider */
 
 footer{
     background-color: white;
